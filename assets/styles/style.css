@@ -34,7 +34,19 @@
     font-size: 18px;
 }
 
-section#result {
+body {
+    background-color: var(--paleBlue);
+}
+
+main {
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    user-select: none;
+}
+
+#result {
     background: linear-gradient(180deg, var(--lightSlateBlue), var(--lightRoyalBlue));
     border-radius: 0 0 2rem 2rem;
     color: hsla(241, 100%, 89%, 0.828);
@@ -42,12 +54,12 @@ section#result {
     text-align: center;
 }
 
-section#result h1 {
+#result h1 {
     color: var(--lightLavader);
     font-size: 1.1em;
 }
 
-div#circle {
+#score-container {
     background: linear-gradient(180deg, var(--violetBlue), var(--persianBlue));
     border-radius: 50%;
     margin: 1.4rem auto 1.4rem auto;
@@ -56,100 +68,133 @@ div#circle {
     width: 8.5rem;
 }
 
-div#circle > span#number-result {
+span#score {
     color: var(--white);
     font-size: 3.5em;
     font-weight: 800;;
 }
 
-div#circle > p {
+#score-container > p {
     color: hsla(241, 100%, 89%, 0.514);
     font-weight: 600;
 }
 
-section#result h2 {
+#result h2 {
     color: var(--white);
     font-size: 1.5em;
     margin-bottom: .5rem;
 }
 
-section#result h2 + p {
+#result h2 + p {
     max-width: 17rem;
     margin: auto;
 }
 
-section#summary {
+#summary {
     background-color: var(--white);
+    border-radius: 0 0 1.5rem 1.5rem;
     display: flex;
     flex-direction: column;
-    gap: .6rem;
+    gap: .9rem;
     padding: 1.5rem 2rem;
 }
 
-section#summary h2 {
+#summary h1 {
     color: var(--darkGrayBlue);
     font-size: 1.1em;
+    margin-bottom: .5rem;
 }
 
-div.statistics-data {
-    padding: .5rem;
+.statistics-data {
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    position: relative;
 }
 
-div.statistics-data div {
+.statistics-data i {
+    height: 20px;
+    width: 20px;
+    margin-top: .1rem;
+    position: absolute;
+}
+
+.statistics-data h3 {
     display: inline;
+    font-size: .9em;
+    margin-left: 1.8rem;
 }
 
-div.statistics-data i {
-    height: 1rem;
-    width: 1rem;
+.obtained-score {
+    color: var(--darkGrayBlue);
+    font-weight: 800;
 }
 
-div.statistics-data > div > i.icone-reaction {
+.obtained-score span {
+    color: hsla(224, 30%, 27%, 0.5);
+}
+
+.statistics-data i.icone-reaction {
     background: url('../images/icon-reaction.svg');
+    content: '';
 }
 
-div.statistics-data i.icone-memory {
-    background-image: url('../images/icon-memory.svg');
+.statistics-data.reaction {
+    background-color: hsla(0, 100%, 67%, 0.07);
+    color: hsla(0, 100%, 67%, 0.8);
 }
 
-div.statistics-data i.icone-verbal {
-
+.statistics-data i.icone-memory {
+    background: url('../images/icon-memory.svg');
+    content: '';
 }
 
-div.statistics-data i.icone-visual {
-
+.statistics-data.memory {
+background-color: hsla(39, 100%, 56%, 0.07);
+color: hsla(39, 100%, 56%, 0.8);
 }
 
-div.statistics-data h3 {
-    display: inline;
+.statistics-data i.icone-verbal {
+    background: url('../images/icon-verbal.svg');
+    content: '';
 }
 
-div.statistics-data p {
-    display: inline;
+.statistics-data.verbal {
+    background-color: hsla(166, 100%, 37%, 0.07);
+    color: hsl(166, 100%, 37%, 0.8);
 }
 
-div.statistics-data.reaction {
-
+.statistics-data i.icone-visual {
+    background: url('../images/icon-visual.svg');
+    content: '';
 }
 
-div.statistics-data.memory {
-
+.statistics-data.visual {
+    background-color: hsla(234, 85%, 45%, 0.06);
+    color: hsl(234, 85%, 45%, 0.9);
 }
 
-div.statistics-data.verbal {
-
+#summary button {
+    background-color: var(--darkGrayBlue);
+    border-style: none;
+    border-radius: 2.7rem;   
+    color: var(--white);
+    cursor: pointer;
+    font-size: 1.1em;
+    margin-top: .5rem;
+    padding: 1rem;
+    width: 100%;
 }
 
-div.statistics-data.visual {
-
-}
-
-section#summary button {
-
+#summary button:hover {
+    background: linear-gradient(180deg, var(--violetBlue), var(--lightRoyalBlue));
 }
 
 footer {
-
+    margin: 2rem auto;
+    text-align: center;
 }
 
 footer a {
