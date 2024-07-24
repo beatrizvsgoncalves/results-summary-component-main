@@ -1,71 +1,76 @@
 @media screen and (min-width: 45rem) {
-    body {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
+	body {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
 
-    main {
-        border-radius: 1.5rem;
-        box-shadow: 1px 3px 15px rgba(0, 0, 0, 0.09);
-        display: flex;
-        flex-direction: row;
-        margin: auto;
-        margin-top: 2rem;
-        max-width: 40.3rem;
-    }
+	main {
+		border-radius: 1.5rem;
+		box-shadow: 1px 3px 15px rgba(0, 0, 0, 0.09);
+		display: flex;
+		flex-direction: row;
+		margin: auto;
+		margin-top: 2rem;
+		max-width: 40.3rem;
+	}
 
-    #result {
-        border-radius: 1.5rem;
-        padding: 2rem;
-        width: 20rem;
-    }
+	#result {
+		border-radius: 1.5rem;
+		padding: 2rem;
+		width: 20rem;
+	}
 
-    #result h1, #summary h1 {
-        font-size: 1.3em;
-    }
+	#result h1,
+	#summary h1 {
+		font-size: 1.3em;
+	}
 
-    #score-container {
-        height: 11rem;
-        width: 11rem;
-        padding-top: 2.5rem;
-        margin-top: 1.8rem;
-    }
+	#score-container {
+		height: 11rem;
+		width: 11rem;
+		padding-top: 2.5rem;
+		margin-top: 1.8rem;
+	}
 
-    span#score {
-        font-size: 4em;
-    }
+	span#score {
+		font-size: 4em;
+	}
 
-    #result h2 {
-        font-size: 1.8em;
-        margin: 1.5rem auto 1rem auto;
-    }
+	#result h2 {
+		font-size: 1.8em;
+		margin: 1.5rem auto 1rem auto;
+	}
 
-    #result h2 + p {
-        color: hsla(241, 100%, 89%, 0.9);
-        font-size: 1em;
-        width: 14rem;
-    }
+	#result h2 + p {
+		color: hsla(241, 100%, 89%, 0.9);
+		font-size: 1em;
+		width: 14rem;
+	}
 
-    #summary {
-        border-radius: 0 1.5rem 1.5rem 0;
-        gap: .8rem;
-        padding: 2rem;
-        width: 20.3rem;
-    }
+	#summary {
+		border-radius: 0 1.5rem 1.5rem 0;
+		gap: 0.8rem;
+		padding: 2rem;
+		width: 20.3rem;
+	}
 
-    .statistics-data h3 {
-        font-size: 1em;
-    }
+	.statistics-data h3 {
+		font-size: 1em;
+	}
 
-    #summary button {
-        margin: 1.2rem 0 .5rem 0;
-    }
+	#summary button {
+		margin: 1.2rem 0 0.5rem 0;
+	}
 }
 
 @media screen and (max-width: 16rem) {
-    #summary {
-        padding: .1rem;
+	#summary {
+		padding: 0.1rem;
+	}
+
+    #summary h1 {
+        padding: 1rem auto auto 1rem
     }
 }

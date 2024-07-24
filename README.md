@@ -28,14 +28,14 @@ Os usuários deverão ser capazes de:
 
 ### Screenshot
 
-![](images/screenshot-desktop.jpeg)
-![](images/screenshot-mobile.jpeg)
+![](./screenshots/screenshot-desktop.jpeg)
+![](./screenshots/screenshot-mobile.jpeg)
 
 
 ### Links
 
-- URL da solução: []()
-- URL do site: []()
+- URL da solução: [Frontend Mentor](https://www.frontendmentor.io/solutions/results-summary-component-AWhP4_swNN)
+- URL do site: [GitHub Pages](https://beatrizvsgoncalves.github.io/results-summary-component-main/)
 
 
 ## Meu processo
@@ -44,12 +44,11 @@ Os usuários deverão ser capazes de:
 
 - HTML5 semântica
 - Flexbox
-- Grid
 - Mobile-first workflow
 
 ### Desenvolvimento contínuo
 
-Este foi um bom desafio para treinar minhas habilidades com HTML e CSS. Pesquisei
+Este foi um bom desafio para treinar minhas habilidades com HTML e CSS. Tive algumas dificuldades, mas foram logo superadas ao rever meus projetos anteriores.
 
 ## Autora
 
