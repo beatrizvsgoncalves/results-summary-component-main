@@ -13,11 +13,8 @@ Essa é a solução para o [Results summary component challenge on Frontend Ment
     - [Links](#links)
   - [Meu processo](#meu-processo)
     - [Construído com](#construído-com)
-    - [O que eu aprendi](#o-que-eu-aprendi)
     - [Desenvolvimento contínuo](#desenvolvimento-contínuo)
-    - [Useful resources](#useful-resources)
   - [Autora](#autora)
-  - [Agradecimentos](#agradecimentos)
 
 
 ## Visão Geral
@@ -43,46 +40,19 @@ Os usuários deverão ser capazes de:
 
 ## Meu processo
 
-
 ### Construído com
 
 - HTML5 semântica
-- CSS Grid
 - Flexbox
+- Grid
 - Mobile-first workflow
-
-
-### O que eu aprendi
-
-No desenvolvimento deste projeto eu aprendi um pouco a usar o grid. Ainda não aprendi esse conceito no meu curso então dei uma suada para terminar esse projeto.
-
-```css
-main {
-    display: grid;
-    gap: 0;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-}
-```
-
 
 ### Desenvolvimento contínuo
 
-
-
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
+Este foi um bom desafio para treinar minhas habilidades com HTML e CSS. Pesquisei
 
 ## Autora
 
 - Github - [beatrizvsgoncalves](https://github.com/beatrizvsgoncalves)
 - LinkedIn - [beatriz-vs-goncalves](https://www.linkedin.com/in/beatriz-vs-goncalves/)
 - Frontend Mentor - [@beatrizvsgoncalves](https://www.frontendmentor.io/profile/beatrizvsgoncalves)
-
-
-## Agradecimentos
-
