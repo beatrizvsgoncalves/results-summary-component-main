@@ -3,7 +3,6 @@
         display: flex;
 		align-items: center;
 		justify-content: center;
-        padding: 2rem;
 	}
 
 	main {
@@ -71,10 +70,10 @@
 
 @media screen and (max-width: 16rem) {
 	#summary {
-		padding: 0.1rem;
+		padding: 0.2rem;
 	}
 
 	#summary h1 {
-		padding: 1rem auto auto 1rem;
+		margin: 1rem auto auto 1rem
 	}
 }
